@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queue-monitoring timestamp="1473712090"><window id="1"><ticket>673</ticket><queue>0</queue><statistic>22.56</statistic><timestamp>1473682726</timestamp></window><window id="2"><ticket>088</ticket><queue>3</queue><statistic>19.72</statistic><timestamp>1473678435</timestamp></window><window id="3"><ticket>A01</ticket><queue>6</queue><statistic>1800</statistic><timestamp>1473645611</timestamp></window></queue-monitoring>

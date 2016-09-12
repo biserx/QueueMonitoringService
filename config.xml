@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queue-monitoring timestamp="1473645502"><window id="1"><name>Administration</name><min>500</min><max>999</max></window><window id="2"><name>Payments</name><min>001</min><max>499</max></window><window id="3"><name>Services</name><min>S01</min><max>S99</max></window></queue-monitoring>
