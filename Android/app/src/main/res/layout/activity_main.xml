@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textDark" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="4sp"
+            android:layout_marginBottom="5sp"
+            android:contentDescription="@string/imgDescription"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2sp"
+            android:contentDescription="@string/imgDescription"
+            android:padding="3dp"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/logo"
+            android:background="@color/textDark"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/textShine"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/init"
+ 		android:background="@color/textShine"
+  		android:textColor="@color/info"
+    />
+   
+    
+    <ListView
+        android:id="@+id/windowsList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+     
+
+</LinearLayout>

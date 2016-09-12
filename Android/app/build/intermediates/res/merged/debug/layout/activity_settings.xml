@@ -1,0 +1,149 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	tools:context=".SettingsActivity">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textDark" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentLeft="true"
+  			android:layout_marginTop="4sp"
+            android:layout_marginBottom="5sp"
+            android:contentDescription="@string/imgDescription"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentRight="true"
+			android:layout_margin="2sp"
+            android:contentDescription="@string/imgDescription"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/logo"
+            android:background="@color/textDark"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/textShine"
+            android:textSize="20sp" />
+    </RelativeLayout>
+         
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingTop="2dip"
+        android:textColor="@color/textSmall"
+        android:textSize="26sp"
+        android:text="@string/settingsTitle" />
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="15dp">
+        
+        
+	       <EditText
+	        android:id="@+id/txtFilePath"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint=""
+	        android:ems="10" >
+	
+	       	 <requestFocus />
+	  	  </EditText>
+       <Button
+        android:id="@+id/btnChooseFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose" />
+    </LinearLayout> -->
+
+
+    
+ 
+
+    <CheckBox
+        android:id="@+id/chkRinging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/ringingEnabled"/>
+
+    <CheckBox
+        android:id="@+id/chkVibrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vibratingEnabled" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="10dp"
+        android:text="@string/refresh_interval" />
+
+    <SeekBar
+        android:id="@+id/intervalBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:max="290" />
+
+    <TextView
+        android:id="@+id/lblInterval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="12dp"
+        
+        android:text="@string/seconds" />
+
+
+
+    <Button
+        android:id="@+id/btnSaveSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/back" />
+
+
+
+
+        
+	</LinearLayout>
+     <TextView
+         android:id="@+id/lastServerUpdate"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentBottom="true"
+         android:textColor="@color/textLight" />
+
+</RelativeLayout>

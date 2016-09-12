@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/plauge/QueueMonitoringService/Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="bea4fbc9b98d958e953b99869b64bf80eb3941d9">
+        <dex dex="/home/plauge/QueueMonitoringService/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6b54c4432b02df59a76e7397135bbbba45a56ad9/classes.dex" />
+    </item>
+    <item
+        jar="/home/plauge/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/plauge/QueueMonitoringService/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_7cc136e2e70f148a1bd8e3c243018f2a022ac080/classes.dex" />
+    </item>
+    <item
+        jar="/home/plauge/QueueMonitoringService/Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c256ed4c5984b74783f5d52f06cf0f1c5393c5fb">
+        <dex dex="/home/plauge/QueueMonitoringService/Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8d91ed83519d8e061a40e6848353177796788a20/classes.dex" />
+    </item>
+
+</items>

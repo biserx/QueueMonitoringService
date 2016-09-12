@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"  >
+
+   
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left" 
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:orientation="vertical"    
+        >
+        
+     
+     
+     <TextView
+        android:id="@+id/windowLabelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:textSize="16sp"
+        android:text="@string/window"
+        android:visibility="gone"/>
+     
+      <TextView
+        android:id="@+id/windowLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8sp"
+        android:textColor="@color/textShine" 
+        android:layout_marginBottom="10sp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+      
+      
+      
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        
+        android:textSize="16sp"
+        android:text="@string/ticketNumber" />
+    
+    <EditText
+        android:id="@+id/dialogTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:inputType="text"
+        android:ems="10" 
+        android:layout_marginRight="8sp"
+
+        >
+
+        <requestFocus />
+    </EditText>
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        >
+		
+        <Button
+            android:id="@+id/dialogAddAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogAddAlarm" />
+
+        <Button
+            android:id="@+id/dialogCancelAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogCancelAlarm" />
+    </LinearLayout>
+
+</LinearLayout>

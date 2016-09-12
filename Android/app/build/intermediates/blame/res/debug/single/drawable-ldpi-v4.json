@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_menu.png",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/drawable-ldpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/pic_alarm.png",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/drawable-ldpi/pic_alarm.png"
+    },
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/pic_add_alarm.png",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/drawable-ldpi/pic_add_alarm.png"
+    },
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/pic_delete_alarm.png",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/drawable-ldpi/pic_delete_alarm.png"
+    }
+]

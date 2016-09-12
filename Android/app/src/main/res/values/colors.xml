@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="warning">#dc0000</color>
+	<color name="info">#dc6800</color>
+	
+	<color name="textSmall">#4c4c4c</color>
+	<color name="textBig">#dc6800</color>
+	
+	<color name="textLight">#909090</color>
+	<color name="textShine">#efefef</color>
+	<color name="textDark">#4c4c4c</color>
+
+</resources>

@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity" >
+    
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textDark" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentLeft="true"
+  			android:layout_marginTop="4sp"
+            android:layout_marginBottom="5sp"
+            android:contentDescription="@string/imgDescription"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/titlebar"
+            android:layout_alignParentRight="true"
+			android:layout_margin="2sp"
+            android:contentDescription="@string/imgDescription"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/logo"
+            android:background="@color/textDark"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/textShine"
+            android:textSize="20sp" />
+    </RelativeLayout>
+         
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/info"
+        android:gravity="center"
+        android:textColor="@color/textShine"
+        android:textSize="18sp" />
+              
+              
+ 	<!-- Window name -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingTop="2dip"
+        android:textColor="@color/textSmall"
+        android:textSize="26sp" >
+
+    </TextView>
+    
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70sp" >
+
+
+		<!-- Ticket number -->
+
+	    <TextView
+	        android:id="@+id/ticket"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:paddingLeft="12dip"
+	        android:textColor="@color/textBig"
+	        android:textSize="52sp"
+	        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/add_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/imgDescription"
+            android:paddingRight="12dip"
+            android:paddingTop="14dip"
+            
+            android:src="@drawable/pic_add_alarm" />
+     
+    </RelativeLayout>
+    
+     
+     
+     
+   		<!-- Queue-->
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="6dip">
+        	<!-- Statistic Label Pre -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/textLight"
+	            android:gravity="left"
+	            android:textSize="17sp"
+	            android:text="@string/queue" >
+	        </TextView>
+	        <!-- Statistic value -->
+	        <TextView
+	            android:id="@+id/queue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5sp"
+	            android:layout_marginRight="5sp"
+	            android:textColor="@color/textDark" 
+	            android:textStyle="bold"
+	            android:textSize="20sp"
+	            android:gravity="left">
+	        </TextView>
+        </LinearLayout>
+                
+
+
+
+         <!-- Statistic -->
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="6dip">
+        	<!-- Statistic Label Pre -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/textLight"
+	            android:gravity="left"
+	            android:textSize="17sp"
+	            android:text="@string/flow_pre" >
+	        </TextView>
+	        <!-- Statistic value -->
+	        <TextView
+	            android:id="@+id/statistic"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5sp"
+	            android:layout_marginRight="5sp"
+	            android:textColor="@color/textDark" 
+	            android:textStyle="bold"
+	            android:textSize="20sp"
+	            android:gravity="left">
+	        </TextView>
+	        <!-- Statistic Label Post -->
+	       	<TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/textLight"
+	            android:gravity="left"
+	            android:textSize="17sp"
+	            android:text="@string/flow_post" >
+	        </TextView>
+        </LinearLayout>
+        
+
+        
+
+   		<!-- Last update -->
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="6dip">
+        	<!-- Statistic Label -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/textLight"
+	            android:gravity="left"
+	            android:textSize="17sp"
+	            android:text="@string/lastChange" >
+	        </TextView>
+	        <!-- Statistic value -->
+	        <TextView
+	            android:id="@+id/timestamp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5sp"
+	            android:textColor="@color/textDark" 
+	            android:textStyle="bold"
+	            android:textSize="20sp"
+	            android:gravity="left">
+	        </TextView>
+        </LinearLayout>
+        
+ 		<TextView
+	        android:id="@+id/lblAlarmsList"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textColor="@color/textDark"
+	        android:textSize="20sp"
+	        android:paddingTop="6dip"
+	        android:paddingLeft="6dip"
+	        android:text="@string/alarmsForThisWindow"
+        />
+        <ListView
+            android:id="@+id/alarms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        <TextView
+	        android:id="@+id/lblNoAlarms"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textColor="@color/textLight"
+	        android:textSize="22sp"
+	        android:paddingTop="6dip"
+	        android:paddingLeft="6dip"
+	        android:text="@string/noAlarmsForThisWindow"
+        />
+        
+
+
+    
+        
+</LinearLayout>

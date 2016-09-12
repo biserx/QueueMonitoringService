@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/menu/alarm.xml",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/menu/alarm.xml"
+    },
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/plauge/QueueMonitoringService/Android/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/home/plauge/QueueMonitoringService/Android/app/src/main/res/menu/settings.xml"
+    }
+]
